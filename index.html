@@ -1,1 +1,170 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>DAVE GENU</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<style>
+		body {
+			background-color: #cfd9e2;
+		}
+		h2 {
+			color: #32608d;
+		}
+		h3 {
+			color: #32608d;
+		}
+		.jumbotron {
+			background-color: #32608d;
+			color: #ffffff;
+		}
+		.container-fluid {
+			padding: 60px 50px;
+		}
+		.container-footer {
+			padding: 20px 20px;
+			background-color: #cfd9e2;
+		}
+		.light-grey {
+			background-color: #fff;
+		}
+		.dark-blue {
+			background-color: #32608d;
+		}
+		.text-bottom {
+			color: #fff;
+		}
+		.navbar {
+    			margin-bottom: 0;
+    			background-color: #32608d;
+    			z-index: 9999;
+    			border: 0;
+    			font-size: 12px !important;
+    			line-height: 1.42857143 !important;
+    			letter-spacing: 5px;
+    			border-radius: 0;
+		}
+		.navbar li a, .navbar .navbar-brand {
+    			color: #fff !important;
+		}
+		.navbar-nav li a:hover, .navbar-nav li.active a {
+    			color: #32608d !important;
+    			background-color: #fff !important;
+		}
+
+		.navbar-default .navbar-toggle {
+    			border-color: transparent;
+    			color: #fff !important;
+		}
+		.logo {
+    			font-size: 200px;
+		}
+		.bottom-logo {
+			font-size: 200px;
+			color: #32608d;
+		}
+		@media screen and (max-width: 768px) {
+    			.col-sm-4 {
+        			text-align: center;
+        			margin: 25px 0;
+    			}
+		}
+		img.displayed {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			opacity: 0.7;
+		}
+		.glyphicon-refresh-animate {
+    			-animation: spin 5s infinite linear;
+    			-ms-animation: spin 5s infinite linear;
+    			-webkit-animation: spinw 5s infinite linear;
+    			-moz-animation: spinm 5s infinite linear;
+		}
+		@keyframes spin {
+    			from { transform: scale(1) rotate(0deg);}
+    			to { transform: scale(1) rotate(360deg);}
+		}
+  		@-webkit-keyframes spinw {
+    			from { -webkit-transform: rotate(0deg);}
+    			to { -webkit-transform: rotate(360deg);}
+		}
+		@-moz-keyframes spinm {
+    			from { -moz-transform: rotate(0deg);}
+    			to { -moz-transform: rotate(360deg);}
+		}
+	</style>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="60">
+	<div class="jumbotron text-center">
+		<h1>DAVE GENU</h1>
+		<hr width="80%">
+		<p>Mechanical Engineering Student</p>
+	</div>
+		<nav class="navbar navbar-default navbar-fixed-top">
+  		<div class="container">
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span> 
+      				</button>
+      				<a class="navbar-brand" href="#">DAVE GENU</a>
+    			</div>
+    			<div class="collapse navbar-collapse" id="myNavbar">
+      				<ul class="nav navbar-nav navbar-right">
+        				<li><a href="#about"><span class="glyphicon glyphicon-user"></span>ABOUT</a></li>
+        				<li><a href="#resume"><span class="glyphicon glyphicon-file"></span>RESUME</a></li>
+        				<li><a href="#projects"><span class="glyphicon glyphicon-cog"></span>PROJECTS</a></li>
+        				<li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span>CONTACT</a></li>
+      				</ul>
+    			</div>
+  		</div>
+	</nav>
+	
+	<div id="about" class="container-fluid">
+		<h2 class="text-center">- <span class="glyphicon glyphicon-user"></span> ABOUT -</h2>
+		<h3>Hello!</h3>
+		<div class="row">
+			<div class="col-sm-8">
+				<p class="text-justify">&emsp;&emsp;&emsp;My name is <b>David Genualdi</b> and I am a student at the <b>University of Pittsburgh's Swanson School of Engineering.</b>
+		   		Here you will find my <a href="project">latest projects</a>, my <a href="resume">updated resume</a>, and my <a href="contact">current contact information</a>. 
+		   		This website as a learning tool geared to teach me more about HTML, CSS, Bootstrap, and just coding in general. You may find bugs. 
+		   		You may break it. I am aware of these things. If you do find a bug or run into something not quite right, please <a href="#contact">contact me</a>.</p>
+				<p class="text-justify">&emsp;&emsp;I am a junior <b>Mechanical Engineering</b> student with an expected graduation date of 2017. My goal is gather the most
+		   		amount of formal education and working experience within the next few years as humanly possible. For a more detailed explanation of
+		   		my current process, check out <a href="resume">my resume</a></p>
+				<h3 class="text-right">Thank you!</h3>
+			</div>
+			<div class="col-sm-4">
+				<img class="img-circle displayed" src="myface.jpg" width="250px">
+			</div>
+		</div>
+	</div>
+
+	<div id="resume" class="container-fluid light-grey">
+		<h2 class="text-center">- <span class="glyphicon glyphicon-file"></span> RESUME -</h2>
+		<a href="David_Genualdi_Resume_2015.pdf" target="_blank" type="button" class="btn btn-primary btn-block dark-blue">Click to View PDF</a>
+	</div>
+	<div id="projects" class="container-fluid">
+		<h2 class="text-center">- <span class="glyphicon glyphicon-cog"></span> PROJECTS -</h2>
+		<p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+	</div>
+	<div id="contact" class="container-fluid light-grey">
+		<h2 class="text-center">- <span class="glyphicon glyphicon-envelope"></span> CONTACT -</h2>
+		<p><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+	</div>
+	<div id="end" class="container-fluid text-center">
+		<h2>- PARDON OUR DUST -</h2>
+		<span class="glyphicon glyphicon-cog glyphicon-refresh-animate bottom-logo"></span>
+	</div>
+	<footer class="container-footer dark-blue text-center text-bottom">
+		<p>Made by David Genualdi</p>
+	</footer>
+
+</body>
+</hmtl>
