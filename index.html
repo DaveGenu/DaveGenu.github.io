@@ -24,6 +24,9 @@
 		.container-fluid {
 			padding: 60px 100px;
 		}
+		.container-full {
+			padding: 60px 20px 60px 20px;
+		}
 		.container-footer {
 			padding: 20px 20px;
 			background-color: #cfd9e2;
@@ -68,6 +71,9 @@
 		}
 		.align-right {
 			align: right;
+		}
+		.panel-full {
+			padding: 50px 60px;
 		}
 		@media screen and (max-width: 768px) {
     			.col-sm-4 {
@@ -134,8 +140,7 @@
 	</nav>
 
 <!-- Projects section. First 4 are large projects. Do more projects. Allow for explanation? -->
-
-	<div id="projects" class="container-fluid">
+	<div id="projects" class="container">
 		<h2 class="text-center"><span class="glyphicon glyphicon-wrench"></span> PROJECTS</h2>
 		<br />
 		<div class="row">
@@ -212,8 +217,9 @@
 				</div>
 			</div>
 		</div>
-
+	</div>
 <!-- End of major projects. Lesser below. -->
+	<div class="container-full">
 		<div class="row">
 			<div class="col-sm-6 col-xs-6">
 			<div class="col-sm-6">
@@ -264,15 +270,15 @@
 	</div>
 
 <!-- Blog. Link to wordpress? Get a wordpress.-->
-	<div id="blog" class="container-fluid light-grey">
+	<div id="blog" class="container-full light-grey">
 		<h2 class="text-center"><span class="glyphicon glyphicon-pencil"></span> BLOG</h2>
 		<br />
-		<div class="panel panel-default">
+		<div class="panel panel-default panel-body">
 			<div class="panel-heading"><h4>The Advent of 3D Printing</h4></div>
 			<div class="panel-body">Stuff stuff stuff stuff stuff stuff</div>
 			<div class="panel-footer"><button type="button" class="btn btn-primary btn-xs dark-blue">More</button></div>
 		</div>
-		<div class="panel panel-default">
+		<div class="panel panel-default panel-body">
 			<div class="panel-heading"><h4>The Pros and Cons of Polycarbonate</h4></div>
 			<div class="panel-body">more stuff stuff stuff more stuff stuff stuff more stuff stuff stuff more stuff stuff stuff more stuff stuff stuff</div>
 			<div class="panel-footer"><button type="button" class="btn btn-primary btn-xs dark-blue">More</button></div>
@@ -282,7 +288,7 @@
 
 <!-- About. Spell check. Change image. Say better things -->
 	
-	<div id="about" class="container-fluid">
+	<div id="about" class="container-full">
 		<h2 class="text-center"><span class="glyphicon glyphicon-user"></span> ABOUT</h2>
 		<br />
 		<h3>Hello!</h3>
@@ -340,7 +346,7 @@
 	</div>
 
 <!-- Place holder. Definitely best part of the website.-->
-	<div id="end" class="container-fluid text-center light-grey">
+	<div id="end" class="container-full text-center light-grey">
 		<h2>PARDON OUR DUST</h2>
 		<br />
 		<span class="glyphicon glyphicon-cog glyphicon-refresh-animate bottom-logo"></span>
